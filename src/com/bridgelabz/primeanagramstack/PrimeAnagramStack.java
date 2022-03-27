@@ -76,16 +76,12 @@ public class PrimeAnagramStack {
 				if (check == 0) {
 					listB.add(prime);
 				}
-
 			}
 			listAnagram.add(listA);
 			listNotAnagram.add(listB);
 		}
-
 	}
-
 	
-
 	private boolean checkAnagram(int a, int b) {
 		int[] a1 = frequency(a);
 		int[] b1 = frequency(b);
