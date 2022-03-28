@@ -24,7 +24,7 @@ public class Calender {
 		int day = 1; 
 		// Storing data and months as input 
 		String days[] = { "SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT" }; 
-		String month[] = { "JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER" }; 
+		String month[] = { "JAN", "FEB", "MAR", "APRIL", "MAY", "JUNE", "JULY", "AUG", "SEPT", "OCT", "NOV", "DEC" }; 
 		// Custom array as input 
 		int ar[] = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 }; 
 	     // Till condition holds true 
