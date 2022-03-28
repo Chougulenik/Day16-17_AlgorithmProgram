@@ -33,7 +33,7 @@ public class Calender {
 	    	if (d == 1 && m == mm && y == yy) { 
 	    		break; 
 	    	} 
-	        if (y % 4 == 0 && y % 100 != 0 || y % 100 == 0) { 
+	        if (y % 4 == 0 && y % 100 != 0 || y % 400 == 0) { 
 	        	ar[1] = 29; 
 	        }
 	        else { 
